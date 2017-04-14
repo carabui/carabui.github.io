@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="wrapper">
+    <div class="image-wrapper">
+      <img src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=" alt="">
+    </div>
+
+    <div class="header-content-wrapper">
+      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+      <div class="site-description">{{ site.description }}</div>
+
+      <nav class="site-nav">
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains "http" %}
+            {% assign url = link.url %}
+          {% else %}
+            {% assign url = link.url | relative_url %}
+          {% endif %}
+          <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
+
+</header>
