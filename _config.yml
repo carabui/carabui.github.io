@@ -18,9 +18,9 @@ email: phuong.bui42@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   “	As is a tale, so is life. Not how long it is, but how good it is. ”
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://carabui.space" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  carabui
+github_username: carabui
 
 # Build settings
 markdown: kramdown
