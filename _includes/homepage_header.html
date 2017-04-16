@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="wrapper">
     <div class="image-wrapper">
-      <img src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=" alt="">
+      <img id="#home-header-image"src="" alt="">
     </div>
 
     <div class="header-content-wrapper">
@@ -23,3 +23,22 @@
   </div>
 
 </header>
+
+<script>
+  (function() {
+    BACKGROUNDS = [ "bg1.jpeg", "bg2.jpg", "bg3.jpg" ]
+
+    randomBackground = function() {
+      var randIndex = Math.floor((Math.random() * BACKGROUNDS.length));
+      return BACKGROUNDS[randIndex];
+    };
+
+    setImageHeader = function(imageId, img) {
+      imgObject = document.getElementById(imageId);
+      imgObject.setAttribute("src", "/" + img);
+    };
+
+    setImageHeader("#home-header-image", randomBackground());
+  })();
+
+</script>
