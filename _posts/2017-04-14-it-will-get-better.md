@@ -35,4 +35,4 @@ Bottom line: whenever you feel like you're struggling and having it hard, rememb
 
 And it's ok to feel like you're running on fire and having it too rough or totally burnout and feel like $hit. Because:
 
-![](https://dl.dropboxusercontent.com/content_link/fY70MfDVHzimLdBxXJiSYudc3CIeIQFO3Ri5UOldFYqaEAuaZpUrMBO2z9zT3z3a/file)
+![](https://cloud.githubusercontent.com/assets/22501867/25071409/b50c8a56-22e8-11e7-8ec1-a718abebb40c.jpg)
