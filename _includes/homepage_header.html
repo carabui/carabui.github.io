@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="wrapper">
     <div class="image-wrapper">
-      <img id="#home-header-image"src="" alt="">
+      <img id="#home-header-image"src="/bg3.jpg" alt="">
     </div>
 
     <div class="header-content-wrapper">
@@ -25,20 +25,20 @@
 </header>
 
 <script>
-  (function() {
-    BACKGROUNDS = [ "bg1.jpg", "bg2.jpg", "bg3.jpg" ]
+  <!--(function() {-->
+    <!--BACKGROUNDS = [ "bg1.jpg", "bg2.jpg", "bg3.jpg" ]-->
 
-    randomBackground = function() {
-      var randIndex = Math.floor((Math.random() * BACKGROUNDS.length));
-      return BACKGROUNDS[randIndex];
-    };
+    <!--randomBackground = function() {-->
+      <!--var randIndex = Math.floor((Math.random() * BACKGROUNDS.length));-->
+      <!--return BACKGROUNDS[randIndex];-->
+    <!--};-->
 
-    setImageHeader = function(imageId, img) {
-      imgObject = document.getElementById(imageId);
-      imgObject.setAttribute("src", "/" + img);
-    };
+    <!--setImageHeader = function(imageId, img) {-->
+      <!--imgObject = document.getElementById(imageId);-->
+      <!--imgObject.setAttribute("src", "/" + img);-->
+    <!--};-->
 
-    setImageHeader("#home-header-image", randomBackground());
-  })();
+    <!--setImageHeader("#home-header-image", randomBackground());-->
+  <!--})();-->
 
 </script>
